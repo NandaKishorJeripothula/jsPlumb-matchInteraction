@@ -1,0 +1,33 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+h1,
+p {
+  font-family: Lato;
+}
+#left {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  float: left;
+}
+#right {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  float: right;
+}
+#matchParent {
+  padding: 20px;
+  width: 80%;
+  min-height: 800px;
+  border: 0px solid gray;
+}
+
+.item {
+  height: 80px;
+  width: 80px;
+  border: 1px solid red;
+  float: left;
+}
